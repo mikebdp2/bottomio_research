@@ -1,0 +1,2 @@
+reg00: base=0x0ffc00000 ( 4092MB), size=    4MB, count=1: write-protect
+reg01: base=0x000000000 (    0MB), size=  512MB, count=1: write-back

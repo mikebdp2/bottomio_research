@@ -1,0 +1,56 @@
+00000000-00000fff : Reserved
+00001000-0009fbff : System RAM
+0009fc00-0009ffff : Reserved
+000a0000-000bffff : PCI Bus 0000:00
+000c0000-000dffff : PCI Bus 0000:00
+  000c0000-000cf1ff : Video ROM
+000f0000-000fffff : Reserved
+  000f0000-000fffff : System ROM
+00100000-1fe1afff : System RAM
+1fe1b000-3fffffff : Reserved
+  1fe46000-1fe4dfff : BOOT0000:00
+40000000-ffffffff : PCI Bus 0000:00
+  d0000000-dfffffff : 0000:00:01.0
+  e0000000-efffffff : PCI Bus 0000:01
+    e0000000-efffffff : 0000:01:00.0
+  f0000000-f00fffff : PCI Bus 0000:01
+    f0000000-f003ffff : 0000:01:00.0
+    f0040000-f005ffff : 0000:01:00.0
+  f0100000-f01fffff : PCI Bus 0000:02
+    f0100000-f013ffff : 0000:02:00.0
+      f0100000-f013ffff : alx
+  f0200000-f02fffff : PCI Bus 0000:03
+    f0200000-f027ffff : 0000:03:00.0
+      f0200000-f027ffff : ath9k
+    f0280000-f028ffff : 0000:03:00.0
+  f0300000-f037ffff : amd_iommu
+  f0380000-f03bffff : 0000:00:01.0
+  f03c0000-f03c3fff : 0000:00:01.1
+    f03c0000-f03c3fff : ICH HD audio
+  f03c4000-f03c7fff : 0000:00:14.2
+    f03c4000-f03c7fff : ICH HD audio
+  f03c8000-f03c8fff : 0000:00:12.0
+    f03c8000-f03c8fff : ohci_hcd
+  f03c9000-f03c9fff : 0000:00:13.0
+    f03c9000-f03c9fff : ohci_hcd
+  f03ca000-f03cafff : 0000:00:16.0
+    f03ca000-f03cafff : ohci_hcd
+  f03cb000-f03cb7ff : 0000:00:11.0
+    f03cb000-f03cb7ff : ahci
+  f03cc000-f03cc0ff : 0000:00:12.2
+    f03cc000-f03cc0ff : ehci_hcd
+  f03cd000-f03cd0ff : 0000:00:13.2
+    f03cd000-f03cd0ff : ehci_hcd
+  f03ce000-f03ce0ff : 0000:00:16.2
+    f03ce000-f03ce0ff : ehci_hcd
+  f8000000-fbffffff : Reserved
+  fec00000-fec003ff : IOAPIC 0
+  fec10002-fec11001 : pnp 00:00
+  fed00000-fed003ff : HPET 0
+  fed80b00-fed80b07 : SB800 TCO
+  fee00000-fee00fff : Local APIC
+100000000-4beffffff : System RAM
+  389800000-38a400e50 : Kernel code
+  38a400e51-38ab4bf3f : Kernel data
+  38b0a2000-38b3fffff : Kernel bss
+4bf000000-4bfffffff : RAM buffer
